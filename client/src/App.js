@@ -30,8 +30,8 @@ function App() {
     <div >
       <InputArea onAdd={addTopic}/>
       {output && 
-      <div> 
-        <h1>{output.topic}</h1>
+      <div className='displayArea'> 
+        <h1>{output.topic.toUpperCase()}</h1>
         <p>{output.details}</p>
       </div> }
     </div>

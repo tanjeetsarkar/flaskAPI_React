@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import "./InputArea.css"
 
 const InputArea = (props) => {
 
@@ -20,8 +21,8 @@ const InputArea = (props) => {
     }
 
   return (
-    <div>
-        <input name="topicName" value={topic.topicName} onChange={handleChange} placeholder='Search wiki here'/>
+    <div className='inputArea'>
+        <input name="topicName" value={topic.topicName} onChange={handleChange} placeholder='Search here'/>
         <button onClick={handleClick}> Execute </button>
     </div>
   )

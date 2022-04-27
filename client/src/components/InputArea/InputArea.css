@@ -1,0 +1,19 @@
+.inputArea {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 10px;
+}
+
+.inputArea input {
+    position: relative;
+    padding: 4px;
+    margin: 4px;
+}
+
+.inputArea button {
+    position: relative;
+    float: right;
+    cursor: pointer;
+    margin: 4px;
+}
